@@ -1,0 +1,20 @@
+name: Deploy backend
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy backend
+    runs-on: ubuntu-latest
+    env:
+      # No secrets configured
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: |
+          echo "Add your build command here"
+      - name: Deploy
+        run: echo "Add your deploy script here (ssh, docker push, etc.)"
