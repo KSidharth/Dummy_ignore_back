@@ -128,3 +128,4 @@ backend/
 - Generic error messages prevent enumeration attacks
 - Making changes to check the merge
 - Making changes to add the merge Readme.md
+- Reverting changes to main branch
