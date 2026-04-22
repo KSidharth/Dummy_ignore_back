@@ -13,8 +13,8 @@ engine = create_async_engine(
     settings.DATABASE_URL,
     echo=False,  # Set to True for SQL query logging in development
     pool_pre_ping=True,  # Verify connections before using them
-    pool_size=10,
-    max_overflow=20,
+    pool_size=20, # Increased pool size for better concurrency
+    max_overflow=40, # Increased max overflow
     future=True
 )
 
