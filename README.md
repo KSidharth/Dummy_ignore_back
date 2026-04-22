@@ -127,3 +127,4 @@ backend/
 - CORS configured with explicit origin whitelist
 - Generic error messages prevent enumeration attacks
 - Making changes to check the merge
+- Making changes to add the merge Readme.md
