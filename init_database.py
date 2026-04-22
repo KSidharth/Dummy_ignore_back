@@ -8,7 +8,7 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 # Database connection parameters
 DB_USER = "postgres"
-DB_PASSWORD = "KSR@2010030443"  # Change this to your PostgreSQL password
+DB_PASSWORD = "KSR@wertyui"  # Change this to your PostgreSQL password
 DB_HOST = "localhost"
 DB_PORT = "5432"
 NEW_DB_NAME = "logindb"
